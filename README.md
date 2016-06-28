@@ -89,17 +89,37 @@ Let's start with a simple example:
 
 ```
 >>> a = 3
->>> b = 2
+>>> b = 2.5
 >>> c = a + b
 >>> print(c)
-5
+5.5
 ```
 
 Here we've created three variables (a, b, c) and executed an operation, the addition of a and b using the + operator, which we have then assigned to c. Finally, we've printed c.
 
-Python supports many more operations, including divisions powers, type conversions, etc. - we'll explore those soon.
+The data types of a and b, however, are subtly different. a is an integer and b is a float. We can check the data type of any variable using the type function:
 
-### Exercise: Basic operations
+```
+>>> a = 3
+>>> type(a)
+<class 'int'>
+>>> b = 2.5
+<class 'float'>
+>>> c = "hello"
+>>> type(c)
+<class 'str'>
+```
+
+Python supports many operations, including divisions, type conversions, etc. - we'll explore those soon.
+
+### Exercise: Data types and operations
+
+Play around with data types and operations. Try the following things:
+
+ * Define a variable and assign an integer and a float. Define a new variable and assign the sumo of the previous variables. What's the data type of the third variable?
+ * Reassign a variable with a different data type, e.g., take one of your numerical variables and assign a string to it. What's the new data type?
+ * Try what happens if you try to add a string to a string?
+ * Try what happens if you add a string to a float or an integer.
 
 
 ## Writing code in a file
@@ -123,7 +143,7 @@ print(doubleNumber(3))
 print(doubleNumber(14.22))
 ```
 
-TODO: explain function?
+Here we've also defined or first own function! We'll go into details about function at a later time. For now, just notice that the indentation matters!
 
 Now, run
 
@@ -135,11 +155,9 @@ $ python first_steps.py
 
 What happened here? Python executed the commands in the file, and the terminated. You saw the result, but it was not interactive anymore, but executed in a couple of milliseconds.
 
-Larger and bigger programs are commonly written using source code files and are not run interactively.
+Larger and bigger programs are commonly written using source code files and are not run interactively. They will read data from files and wait for user input, etc.
 
 Another alternative of running Python, however, is through Jupyter Notebooks. In this class we'll mainly use notebooks, but you should be aware of the other options we discussed here.
-
-
 
 
 
