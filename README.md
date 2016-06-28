@@ -95,9 +95,9 @@ Let's start with a simple example:
 5.5
 ```
 
-Here we've created three variables (a, b, c) and executed an operation, the addition of a and b using the + operator, which we have then assigned to c. Finally, we've printed c.
+Here we've created three variables (`a, b, c`) and executed an operation, the addition of `a` and `b` using the `+` operator, which we have then assigned to `c`. Finally, we've printed `c`.
 
-The data types of a and b, however, are subtly different. a is an integer and b is a float. We can check the data type of any variable using the type function:
+The data types of `a` and `b`, however, are subtly different. `a` is an integer and `b` is a float. We can check the data type of any variable using the `type()` function:
 
 ```
 >>> a = 3
@@ -136,6 +136,9 @@ You can also copy and paste this code into the file:
 
 ```python
 def doubleNumber(a):
+    # btw, here is a comment! Use the # symbol to add comments or temporarily remove code
+    # shorthand operator for 'a = a * 2'
+    # also btw - the indentation here matters!
     a *= 2
     return a;
 
@@ -143,7 +146,7 @@ print(doubleNumber(3))
 print(doubleNumber(14.22))
 ```
 
-Here we've also defined or first own function! We'll go into details about function at a later time. For now, just notice that the indentation matters!
+Here we've also defined or first own function! We'll go into details about functions at a later time. For now, just notice that the indentation matters!
 
 Now, run
 
@@ -153,14 +156,21 @@ $ python first_steps.py
 28.44
 ```
 
-What happened here? Python executed the commands in the file, and the terminated. You saw the result, but it was not interactive anymore, but executed in a couple of milliseconds.
+What happened here? Python executed the commands in the file, and then terminated. You saw the result, but it was not interactive anymore, but executed in a couple of milliseconds.
 
 Larger and bigger programs are commonly written using source code files and are not run interactively. They will read data from files and wait for user input, etc.
 
-Another alternative of running Python, however, is through Jupyter Notebooks. In this class we'll mainly use notebooks, but you should be aware of the other options we discussed here.
+### Exercise: Running Programs
+
+ * Create a new file and use the simple function as a template. Modify the code to divide numbers by two instead of doubling them.
+ * Try what happens if you change the indentation. Can you guess what's happening?
+ * Try what happens if you print `a` at the very end of the program. Can you explain what's going on?
 
 
 
 ## Jupyter Notebooks
+
+Another alternative of running Python, however, is through Jupyter Notebooks. In this class we'll mainly use notebooks, but you should be aware of the other options we discussed here.
+
 
 Switch to jupyter for now.
