@@ -170,7 +170,27 @@ Larger and bigger programs are commonly written using source code files and are 
 
 ## Jupyter Notebooks
 
-Another alternative of running Python, however, is through Jupyter Notebooks. In this class we'll mainly use notebooks, but you should be aware of the other options we discussed here.
+***Check out the official Jupyter Notebooks documentation [here](http://jupyter.readthedocs.io/en/latest/index.html) for all the details***
 
+Another alternative of running Python, however, is through Jupyter Notebooks. In this class we'll mainly use notebooks as they are great for the data science process and education, but you should be aware of the other options we discussed here.
 
-Switch to jupyter for now.
+We've prepared a notebook for the rest of this class. Notebooks are stored in files that end with a `.ipynb` extension. Download [this file](lab-1-notebook.ipynb) and save it to a folder.
+
+Notebooks make use of an improved, interactive client for python called [ipython](https://ipython.org/). ipython might already be installed on your machine, but probably not in the right version. We'll use anaconda to install the proper version of ipython. Run:
+
+```
+$ conda install ipython
+```
+
+and confirm the installation after reviewing that in fact, ipython 3.* is installed.
+
+Now, change directories in your console to that you're in the directory where the notebook file is saved and run:
+
+```
+$ jupyter notebook
+```
+This will start the notebook server and should open up a browser window point to [http://localhost:8888/](http://localhost:8888/) that will look like that:
+
+![Jupyter Notebook Screenshot](jupyter.png)
+
+Click on the `lab-1-notebook.ipynb` entry, and we'll take it from there! 
