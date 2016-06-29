@@ -130,3 +130,13 @@ Larger and bigger programs are commonly written using source code files and are 
  * Create a new file and use the simple function as a template. Modify the code to divide numbers by two instead of doubling them.
  * Try what happens if you change the indentation. Can you guess what's happening?
  * Try what happens if you print `a` at the very end of the program. Can you explain what's going on?
+
+
+## Jupyter Notebooks
+We've prepared a notebook for the rest of this class. You should have already downloaded it as part of HW0. If not, get it [here](lab-1-notebook.ipynb), change to the appropriate directory, and run
+
+```
+$ jupyter notebook
+```
+
+We're switching over to notebooks now!
