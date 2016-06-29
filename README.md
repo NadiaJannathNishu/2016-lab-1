@@ -1,41 +1,6 @@
 # Introduction to Data Science - Lab 1
 
-Hi there, welcome to this class! In the labs we'll work on practical skills related to what we discuss in the lectures. That means we'll write code, and we'll write this code in a programming language called Python.
-
-Python has three advantages for this class: it's pretty easy to learn, it's the language of choice for many data scientists, and it can be used inside of Jupyter Notebooks - more on the latter will follow later.
-
-First, we'll need to install some things:
-
-## Installing Python
-
-Chances are, if you're on a mac, you already have Python installed. You can simply try it out by running
-
-```
-$ python
-```
-
-from a console. However, as most software, Python comes in different versions and is packaged differently depending on your needs. In this class we'll use a python distribution called Anaconda. Anaconda comes with a lot of packages that we'll need pre-installed, so it should be the most hassle-free option for us.
-
-Go to [this website](https://docs.continuum.io/anaconda/install) and install anaconda for Python 3.5 for your operating system.
-
-Once you've installed anaconda, close your terminal window and re-open it - otherwise your terminal won't recognize the anaconda commands.
-
-Anaconda is both, a package manager and an environment manager. A package manager manages, well, packages. Packages add specific pieces of functionality - there are packages for web scraping, or for data visualization, for example. An environment manager, in contrast, allows you to have different versions of packages installed at the same time. We'll dive into environments and packages when we need them at a later point.
-
-Let's see whether Anaconda works as intended. Run:
-
-```
-$ conda --version
-```
-
-from your terminal. You should see something like this as a result:
-
-```
-$ conda --version
-conda 4.0.5
-```
-
-You can also check out the [official website](http://conda.pydata.org/docs/test-drive.html) for more details on anaconda, environments, and packages.
+Hi there, welcome to our first lab. Labs are meant to give you practical data science skills. We will be using Python, a popular data science programming language in the labs, homeworks, and projects. As part of Homework 0, you should have already setup Python, IPython and Jupyter notebooks, so it's time to get started!
 
 ## Executing your first program
 
@@ -165,32 +130,3 @@ Larger and bigger programs are commonly written using source code files and are 
  * Create a new file and use the simple function as a template. Modify the code to divide numbers by two instead of doubling them.
  * Try what happens if you change the indentation. Can you guess what's happening?
  * Try what happens if you print `a` at the very end of the program. Can you explain what's going on?
-
-
-
-## Jupyter Notebooks
-
-***Check out the official Jupyter Notebooks documentation [here](http://jupyter.readthedocs.io/en/latest/index.html) for all the details***
-
-Another alternative of running Python, however, is through Jupyter Notebooks. In this class we'll mainly use notebooks as they are great for the data science process and education, but you should be aware of the other options we discussed here.
-
-We've prepared a notebook for the rest of this class. Notebooks are stored in files that end with a `.ipynb` extension. Download [this file](lab-1-notebook.ipynb) and save it to a folder.
-
-Notebooks make use of an improved, interactive client for python called [ipython](https://ipython.org/). ipython might already be installed on your machine, but probably not in the right version. We'll use anaconda to install the proper version of ipython. Run:
-
-```
-$ conda install ipython
-```
-
-and confirm the installation after reviewing that in fact, ipython 3.* is installed.
-
-Now, change directories in your console to that you're in the directory where the notebook file is saved and run:
-
-```
-$ jupyter notebook
-```
-This will start the notebook server and should open up a browser window point to [http://localhost:8888/](http://localhost:8888/) that will look like that:
-
-![Jupyter Notebook Screenshot](jupyter.png)
-
-Click on the `lab-1-notebook.ipynb` entry, and we'll take it from there! 
