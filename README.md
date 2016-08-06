@@ -81,7 +81,7 @@ Python supports many operations, including divisions, type conversions, etc. - w
 
 Play around with data types and operations. Try the following things:
 
- * Define a variable and assign an integer and a float. Define a new variable and assign the sumo of the previous variables. What's the data type of the third variable?
+ * Define a variable and assign an integer and a float. Define a new variable and assign the sum of the previous variables. What's the data type of the third variable?
  * Reassign a variable with a different data type, e.g., take one of your numerical variables and assign a string to it. What's the new data type?
  * Try what happens if you try to add a string to a string?
  * Try what happens if you add a string to a float or an integer.
